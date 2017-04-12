@@ -1,0 +1,32 @@
+html, body, .container {
+	height: 100%;
+}
+
+.header, .footer {
+	border: 1px solid red;
+}
+
+.header {
+	height: 30%;
+}
+
+.footer {
+	height: 10%;
+}
+
+.content {
+	height: 70%;
+	border: 1px solid green;
+}
+
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+}
