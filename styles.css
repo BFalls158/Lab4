@@ -63,10 +63,6 @@ h3, h5 {
 
 /*Content Styles*/
 
-/*.content {
-	border: 1px solid green;
-}*/
-
 .art-img {
 	float: left;
 	margin-right: 7px;
@@ -88,6 +84,12 @@ h3, h5 {
 
 .more {
 	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+
+#side-bar:last-child {
+	border-bottom: none;
 }
 
 .article-sep {
