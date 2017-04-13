@@ -11,6 +11,7 @@ html, body, .container {
 	background: url(img/father-son-banner.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	border-radius: 15px;
 	text-align: center;
 	color: #0047b3;
 }
