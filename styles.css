@@ -1,32 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Asar|Source+Sans+Pro|UnifrakturCook:700');
+
 html, body, .container {
 	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header, .footer {
-	border: 1px solid red;
-}
+/*Header Styles*/
 
 .header {
-	height: 30%;
+	background: url(img/father-son-banner.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #0047b3;
 }
 
+#title-h {
+	font-size: 46px;
+}
+
+h3, h5 {
+	text-align: center;
+}
+
+/*Footer Styles*/
 .footer {
-	height: 10%;
+	text-align: center;
+	/*background: radial-gradient(#ccff33
+, #0099ff);*/
+	border-top: 2px solid black;
+	margin-top: 5px;
 }
 
-.content {
-	height: 70%;
+.footer p {
+	margin-top: 10px;
+}
+
+.footer p i {
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+#twitter, #twitter a {
+	color: #3b5998;
+	text-decoration: none;
+}
+
+#github, #github a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#linkedin, #linkedin a {
+	color: #0077b5;
+	text-decoration: none;
+}
+
+#twitter-share {
+	margin: 0 auto;
+}
+
+/*Content Styles*/
+
+/*.content {
 	border: 1px solid green;
+}*/
+
+.art-img {
+	float: left;
+	margin-right: 7px;
+	border-radius: 10px;
 }
 
-.carousel .item {
-  height: 300px;
+.side-bar{
+	text-align: center;
+	padding-top: 100px;
 }
 
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 300px;
-    width: 100%;
+.side-bar img {
+	border-radius: 10px;
 }
+
+.read {
+	margin: 10px 0;
+}
+
+.more {
+	margin-bottom: 15px;
+}
+
+.article-sep {
+	border: 1px solid black;
+	width: 40%;
+	margin: 5px auto 10px auto;
+}
+
+article p:first-letter {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'UnifrakturCook', cursive;
+}
+
+article p {
+	font-family: 'Asar', serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+/*Form Styles*/
+
+form {
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+input[type="text"]:focus{
+	border-color: #0047b3;
+}
+
+input[type="password"]:focus {
+	border-color: #0047b3;
+} 

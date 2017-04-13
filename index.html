@@ -6,33 +6,104 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/654d3d7370.js"></script>
 </head>
 <body>
 	<div class="container">
+		<!-- Header -->
 		<div class="row header">
 			<div class="col-xs-12">
-			
+			<h1 id="title-h">Bloggity McBlogface</h1>
 			</div>
 		</div>
-
+		<!-- Main Content -->
 		<div class="row content">
-			<div class="col-xs-2">
+			<div class="col-xs-3">
+				<form>
 
+					<div class="form-group">
+						<label class="control-label" for="username">
+							Username
+						</label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-user"></span>
+							</div>
+							<input class="form-control" type="text" name="username"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label" for="password">
+							Password
+						</label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-lock"></span>
+							</div>
+							<input class ="form-control" type="password" name="password"/>
+						</div>
+					</div>
+					<label id="checkLabel"><input type="checkbox" name="rememberMe"/> Save Username?</label>
+					<br>
+					<input type="button" name="submit" id="submit" value="Submit"/>
+				</form>
 			</div>
-			<div class="col-xs-6 col-xs-offset-1">
+			<div class="col-xs-7">
+				<h3>Lorem Ipsum</h3>
+				<h5>More Lorem</h5>
+				<div class="article-sep"></div>
+				<article>
+					<img src="img/article1.jpeg" alt="pool time" class="art-img"/>
+						<p>Lorem ipsum dolor sit amet, eu ludus quaerendum per. Quod labores constituto ei ius, prima eleifend referrentur id per, nec esse eirmod appetere ei. Purto senserit evertitur an sea, eu quodsi fabellas percipitur ius, in eos albucius vivendum reformidans. Eius illud habemus te ius. Qui cu volumus albucius.
 
+						Ne eirmod timeam complectitur est. His ut minim torquatos, munere nusquam quo in, cum ea ludus theophrastus. Libris numquam albucius vim an, aliquam ponderum honestatis no sit, te pro dicunt splendide voluptaria. Id pro option utroque principes, hinc salutandi omittantur ne vis. Feugiat habemus eum in.
+
+						Te indoctum forensibus maiestatis has, eum alii dicam assentior ei. Ipsum quaestio ocurreret ex mei. Ut quo aliquip eleifend, est ea tollit oporteat indoctum. Idque nusquam at quo, sed diam euismod ea. Ex sea illum lucilius, vix eu tantas commodo elaboraret. Ius modus iusto perpetua at, ex error homero sea, ne vix probo vulputate definitiones. Qui prompta appetere ut, dicam indoctum adversarium ex vix.
+
+						Postea dissentiunt sea no, velit neglegentur ius ex. Lucilius consequuntur ne eum. Alienum tibique ex sea, mei equidem antiopam scriptorem ex. Probo novum ornatus vix et, eligendi appellantur sed at, sed choro civibus appetere id. Laoreet ancillae cotidieque eos at, possit appetere oporteat et vix.
+
+						His nihil nonumy nonumes ex, eos scaevola posidonium in, ex legere iriure quo. Nec id inermis verterem gubergren, ea esse probo vulputate mel, an tota petentium vituperata eos. Mel et probo epicurei laboramus, vis in virtute sanctus oportere, ferri suscipit definiebas has cu. Eu sed verterem euripidis, assum putant lobortis eos ei. Errem animal id eam, et assum postulant vix, usu ut homero commodo sanctus.
+						</p>
+
+				</article>
 			</div>
-			<div class="col-xs-2 col-xs-offset-1">
-				
+			<div class="col-xs-2 side-bar">
+				<div class="more">
+					<h4>Other articles</h4>
+					<h5>Article One</h5>
+					<img src="img/article-lorem.jpg" class="article-img"/>
+					<button class="btn btn-default read">Read</button>
+					<div class="article-sep"></div>
+				</div>
+				<div class="more">
+					<h4>Other articles</h4>
+					<h5>Article One</h5>
+					<img src="img/article-lorem.jpg" class="article-img"/>
+					<button class="btn btn-default read">Read</button>
+					<div class="article-sep"></div>
+				</div>
+				<div class="more">
+					<h4>Other articles</h4>
+					<h5>Article One</h5>
+					<img src="img/article-lorem.jpg" class="article-img"/>
+					<button class="btn btn-default read">Read</button>
+					<div class="article-sep"></div>
+				</div>
 			</div>
 		</div>
-
+		<!-- Footer -->
 		<div class="row footer">
 			<div class="col-xs-12">
-				
+				<p><span class="glyphicon glyphicon-copyright-mark"></span> <a href="mailto:bfalls158@gmail.com" data-toggle="tooltip" data-placement="top" title="E-mail Me!">Bryan Falls 2017</a></p>
+				<p>
+					<a href="http://www.twitter.com/bfalls158" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>
+					<a href="http://www.github.com/bfalls158" target="_blank"><i class="fa fa-github" id="github"></i></a>
+					<a href="http://www.linkedin.com/in/bryan-falls" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a>
+				</p>
 			</div>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>$(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});</script>
 </html>
