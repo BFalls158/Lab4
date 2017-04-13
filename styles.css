@@ -3,6 +3,7 @@
 html, body, .container {
 	height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 5px;
 }
 
 /*Header Styles*/
@@ -88,7 +89,7 @@ h3, h5 {
 	border-bottom: 2px solid black;
 }
 
-#side-bar:last-child {
+div#side-bar div.more:last-child {
 	border-bottom: none;
 }
 
